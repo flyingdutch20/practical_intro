@@ -50,7 +50,7 @@ print('\n', new_card)
 choice = input("Higher (h) or lower (l): ")
 streak = 0
 
-while (choice=='h' or choice='l'):
+while (choice=='h' or choice=='l'):
     if not deck.hasCard():
         deck = Standard_deck()
         deck.shuffle()
